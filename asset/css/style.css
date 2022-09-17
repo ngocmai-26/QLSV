@@ -1,0 +1,323 @@
+.group {
+    margin: 0 200px;
+    padding: 0px 0;
+}
+
+.bg-bisque {
+    background-color: bisque;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.form-group {
+    padding: 3px 8px;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 6px;
+}
+
+.form-group:focus {
+    outline: 0;
+}
+
+.text_gender {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.table {
+    margin: 15px 0;
+}
+
+.txtBtn {
+    display: flex;
+    justify-content: end;
+}
+
+.txtSubmit {
+    padding: 3px 15px;
+    background-color: rgb(244, 35, 35);
+    border: none;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+button[disabled] {
+    background-color: #b5b5b5;
+}
+
+.txtReset {
+    padding: 3px 15px;
+    background-color: rgb(117, 165, 253);
+    border: none;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.name_bug,
+.email_bug,
+.phone_bug,
+.pass_bug {
+    color: red;
+    display: none;
+}
+
+.demo-btn {
+    justify-content: end;
+    text-align: end;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 0;
+}
+.btn:hover {
+    color: #fff;
+}
+.btn:focus {
+    outline: 0;
+    color: #fff;
+    box-shadow: none;
+}
+
+.btnCreate {
+    background: #23af2c;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btnExcel {
+    background: #d1c823;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btnDelete {
+    background: #eb4146;
+    color: #fff;
+}
+
+.btnRevision {
+    background: #eb8841;
+    color: #fff;
+}
+
+.btnMore {
+    background: #4185eb;
+    color: #fff;
+}
+
+.txtOK {
+    background-color: #3a84f4;
+    color: #fff;
+}
+
+.detail-label {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.detail_text {
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.detail-item {
+    padding: 13px 0;
+}
+
+.come_back-link {
+    text-decoration: none;
+}
+
+.come_back {
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.search {
+    margin: 5px 0;
+}
+
+.search_input {
+    width: 220px;
+    padding: 2px 4px 6px 8px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #4185eb;
+}
+
+.search_input:focus {
+    outline: 0;
+
+}
+
+.btnSearch {
+    margin-left: -5px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius: 0px;
+}
+
+.btnSearch:focus {
+    box-shadow: none;
+    outline: 0;
+}
+/*Trang login*/
+/* .frmLogin {
+    background-color: bisque;
+} */
+
+.login-form {
+    margin: 200px 0;
+}
+
+.header-text {
+    text-align: center;
+    padding: 20px 0;
+    color: aliceblue;
+}
+
+.frm-group {
+    margin: 0 80px;
+    padding: 0px 0 50px;
+}
+
+.text_name {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.text_input {
+    padding: 7px 8px;
+    border: 0;
+    border-radius: 6px;
+    background-color: 0;
+    border: 0;
+    background: none;
+    color: aliceblue;
+}
+
+.text_input::placeholder {
+    color: aliceblue;
+
+}
+
+.text_input:focus {
+    outline: 0;
+
+}
+
+.line {
+    color: white;
+    background-color: white;
+    opacity: .5;
+}
+
+.group-mini {
+    margin: 15px 0;
+}
+
+.text_forget {
+    text-align: right;
+}
+
+.remember[type=checkbox] {
+    width: 15px;
+    height: 15px;
+}
+
+.text_remember {
+    color: aliceblue;
+}
+
+.forget-link {
+    text-decoration: none;
+}
+
+.button {
+    border: 0;
+    margin: 15px 0;
+    padding: 8px 0;
+    font-size: 19px;
+}
+
+.btnlogin {
+    background-color: rgb(254, 93, 93);
+    color: aliceblue;
+}
+
+.btnregister {
+    background-color: #3a84f4;
+    color: aliceblue;
+}
+
+.login_register {
+    background-image: url('https://p.w3layouts.com/demos/aug-2016/19-08-2016/classy_login_form/web/images/banner1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.login {
+    --bs-gutter-x: 0;
+    display: none;
+}
+
+/*register*/
+.register {
+    --bs-gutter-x: 0;
+    display: none;
+}
+
+.register-form {
+    margin: 50px 0;
+}
+
+
+.register__male,
+.register__female {
+    margin: 0px 5px;
+}
+
+.register-block {
+    display: flex;
+}
+
+#detail {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(232, 232, 232,0.3);
+    z-index: 100;
+    display: none;
+}
+.detail-item {
+    width: 550px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 2px 2px rgba(227, 227, 227, 0.8);
+}
+
+.group-detail {
+    margin: 0 20px;
+}
+
+.group-item {
+    padding: 10px 0;
+}

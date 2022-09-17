@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MuiBox_root {
+    height: 100%;
+}
+.MuiBoxMenu {
+    background-color: #202d3f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.menuTopLogo {
+    height: 80px;
+}
+.logo--full {
+    width: 160px;
+    padding: 20px 15px 0;
+}
+
+.menuTopToogle {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 8px;
+}
+
+.MuiIconButton-root {
+    background-color: transparent;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.menuDivider {
+    border-top: 2px solid #15202c;
+    border-bottom: 2px solid #263d53;
+    border: 0;
+    margin: 0;
+}
+
+.menuInnerWrapper {
+    height: calc(100% - 60px);
+    position: relative;
+}
+
+.menuPrimaryInner {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction:column;
+}
+
+nav .menuList {
+    fill: #cad6e2;
+    color: #cad6e2;
+    padding: 0;
+}
+
+.rootMenuItem {
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    height: 60px;
+    display: flex;
+}
+
+.rootMenuItem:hover {
+    background-color: #2a3a51;
+    fill: #fff;
+    color: #fff;
+}
+
+.rootMenuItem_color {
+    color: #cad6e2;
+    text-decoration: none;
+}
+
+.rootMenuItem .ListItemIcon-root {
+    color: #cad6e2;
+    min-width: unset;
+}
+
+.MuiSvgIcon-root {
+    fill: #cad6e2;
+    width: 24px;
+    height: auto;
+    max-height: 30px;
+    margin: -2px 14px 0 17px;
+}
+
+.ListItemTitle {
+    width: 155px;
+    margin-top: 5px;
+}
+.rootMenuItem.active {
+    background-color: #2a3a51;
+    fill: #fff;
+    color: #fff;
+}
+
+.MuiIconItem-root {
+    fill: #cad6e2;
+    width: 24px;
+    font-size: 20px;
+    height: auto;
+    max-height: 30px;
+    margin: -2px 14px 0 17px;
+}
+
+/**************************/
+.MuiBoxBody {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    background-color: #f0f1f1;
+    min-height: 100vh;
+}
+
+.MuiBoxHeaderTop {
+    display: flex;
+    top: 0;
+    height: 56px;
+    z-index: 1001;
+    box-shadow: 0px 2px 4px rgb(168 168 168 / 25%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    position: sticky;
+    background: #fff;
+}
+
+.MuiTypography-h3 {
+    font-size: 1.6rem;
+}
+
+
+.MuiBoxHeaderInfo {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.MuiBoxItem {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 13px 0;
+    height: 100%;
+}
+
+.MuiBoxItem:hover {
+    background: #F2F9FF;
+}
+
+.MuiBoxItem svg {
+    margin: -2px 14px 0 0px;
+}
+
+.MuiBoxText {
+    font-size: 18px;
+    color: #0f1824;
+    margin: 0;
+}
+
+.avatar-acount {
+    width: 45px;
+    height: 35px;
+    border-radius: 220px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.avatar-text {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: #63b4f6;
+    line-height: inherit;
+}
+
+.avatar-item {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+}
+
+.avatar-span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.MuiBoxItem.active {
+    background: #F2F9FF;
+}
+
+/******************/
+.MuiBoxItemBody {
+    padding: 32px 32px 96px;
+    display: flex;
+    width: 100%
+}
+
+
+.MuiBoxItem_Left {
+    width: 83.3333%;
+}
+
+.MuiBoxStudent {
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 6px;
+}
+
+.MuiBox {
+    display: flex;
+    justify-content: right;
+}
+
+.MuiGrid-root {
+    width: 25%;
+    margin: 0 20px 0 0;
+    border-radius: 10px;
+}
+
+.MuiGrid_green {
+    background-color: #31d797;
+}
+
+.MuiGrid_red {
+    background-color: #ff4e4f;
+}
+
+.MuiGrid_blue {
+    background-color: #269aff;
+}
+
+.MuiGrid_yellow {
+    background-color: #ffb10e;
+}
+
+.MuiGrid_link {
+    text-decoration: none;
+}
+
+.MuiGrid-Box {
+    margin: 15px;
+    padding: 6px 0 10px;
+}
+
+.MuiGrid_number {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 0;
+}
+
+.MuiGrid_text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+
+}
